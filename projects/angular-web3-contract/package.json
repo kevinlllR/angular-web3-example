@@ -2,7 +2,19 @@
   "name": "angular-web3-contract",
   "version": "0.0.1",
   "description":"wrapper to interact with smart contracts using web3 ",
-  "homepage":""
+  "homepage":"https://github.com/kevinlllR/angular-web3-example#readme",
+  "bugs":{
+    "url":"https://github.com/kevinlllR/angular-web3-example/issues"
+  },
+  "license":"MIT",
+  "author":{
+    "name":"Kevin Mendoza",
+    "url":"https://github.com/kevinlllR"
+  },
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/kevinlllR/angular-web3-example"
+  },
   "keywords":[
     "angular",
     "web3",
