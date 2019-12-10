@@ -1,0 +1,18 @@
+{
+  "name": "angular-web3-contract",
+  "version": "0.0.1",
+  "description":"wrapper to interact with smart contracts using web3 ",
+  "homepage":""
+  "keywords":[
+    "angular",
+    "web3",
+    "ethereum",
+    "smart-contract",
+    "wrapper"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14",
+    "rxjs": "~6.4.0"
+  }
+}

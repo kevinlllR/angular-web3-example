@@ -11,13 +11,29 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2015",
+    "resolveJsonModule": true,
+    "allowJs": false,
     "typeRoots": [
       "node_modules/@types"
     ],
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "angular-web3-contract": [
+        "dist/angular-web3-contract"
+      ],
+      "angular-web3-contract/*": [
+        "dist/angular-web3-contract/*"
+      ],
+      "angular-web3-accounts": [
+        "dist/angular-web3-accounts"
+      ],
+      "angular-web3-accounts/*": [
+        "dist/angular-web3-accounts/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

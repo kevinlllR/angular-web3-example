@@ -120,6 +120,76 @@
           }
         }
       }
+    },
+    "angular-web3-contract": {
+      "projectType": "library",
+      "root": "projects/angular-web3-contract",
+      "sourceRoot": "projects/angular-web3-contract/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/angular-web3-contract/tsconfig.lib.json",
+            "project": "projects/angular-web3-contract/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/angular-web3-contract/src/test.ts",
+            "tsConfig": "projects/angular-web3-contract/tsconfig.spec.json",
+            "karmaConfig": "projects/angular-web3-contract/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/angular-web3-contract/tsconfig.lib.json",
+              "projects/angular-web3-contract/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "angular-web3-accounts": {
+      "projectType": "library",
+      "root": "projects/angular-web3-accounts",
+      "sourceRoot": "projects/angular-web3-accounts/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/angular-web3-accounts/tsconfig.lib.json",
+            "project": "projects/angular-web3-accounts/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/angular-web3-accounts/src/test.ts",
+            "tsConfig": "projects/angular-web3-accounts/tsconfig.spec.json",
+            "karmaConfig": "projects/angular-web3-accounts/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/angular-web3-accounts/tsconfig.lib.json",
+              "projects/angular-web3-accounts/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "angular-web3-example"
 }
