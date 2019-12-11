@@ -1,6 +1,6 @@
 {
   "name": "angular-web3-contract",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description":"wrapper to interact with smart contracts using web3 ",
   "homepage":"https://github.com/kevinlllR/angular-web3-example#readme",
   "bugs":{

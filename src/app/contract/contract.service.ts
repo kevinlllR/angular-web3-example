@@ -107,11 +107,12 @@ export class ContractService {
       const form = {
         transaction: temp
       };
+      console.log('Se hizo')
       this.config.setConfigContract(data);
-      const result2 = await this.web3.eth.getTransactionFromBlock(status.transactionHash);
-      return result2;
+      // const result2 = await this.web3.eth.getTransactionFromBlock(status.transactionHash);
+      return status;
     } catch (e) {
-      throw new Error('Error');
+      throw new Error(e);
     }
   }
   async executeMethod(name, args) {
@@ -144,8 +145,8 @@ export class ContractService {
     const result = await this.web3.eth.sendSignedTransaction(
       signTransaction.rawTransaction
     );
-    const result2 = await this.web3.getTransactionFromBlock(result.transactionHash);
-    return result2;
+    // const result2 = await this.web3.getTransactionFromBlock(result.transactionHash);
+    return result;
   }
   getMethods() {
     const config = this.config.getConfig();

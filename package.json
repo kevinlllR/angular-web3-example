@@ -1,19 +1,19 @@
 {
   "name": "angular-web3-example",
   "version": "0.0.1",
-  "description":"wrapper to interact with smart contracts using web3 ",
-  "homepage":"https://github.com/kevinlllR/angular-web3-example#readme",
-  "bugs":{
-    "url":"https://github.com/kevinlllR/angular-web3-example/issues"
+  "description": "wrapper to interact with smart contracts using web3 ",
+  "homepage": "https://github.com/kevinlllR/angular-web3-example#readme",
+  "bugs": {
+    "url": "https://github.com/kevinlllR/angular-web3-example/issues"
   },
-  "license":"MIT",
-  "author":{
-    "name":"Kevin Mendoza",
-    "url":"https://github.com/kevinlllR"
+  "license": "MIT",
+  "author": {
+    "name": "Kevin Mendoza",
+    "url": "https://github.com/kevinlllR"
   },
-  "repository":{
-    "type":"git",
-    "url":"https://github.com/kevinlllR/angular-web3-example"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevinlllR/angular-web3-example"
   },
   "scripts": {
     "ng": "ng",
@@ -21,7 +21,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "doc":"./node_modules/.bin/compodoc -p tsconfig.app.json ",
+    "doc": "./node_modules/.bin/compodoc -p tsconfig.app.json ",
     "lint:fix": "ng lint --fix=true",
     "e2e": "ng e2e"
   },
