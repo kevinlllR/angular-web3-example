@@ -1,7 +1,7 @@
 # Example
 https://stackblitz.com/edit/angular-web3-contract
 # Installation
-angular-web3-contract requires [Node.js](https://nodejs.org/) v12+ to run.
+angular-web3-contract requires [Node.js](https://nodejs.org/) v12+ to run and Angular 8.
 ### Npm
 `npm install -S angular-web3-contract`
 # Usage
